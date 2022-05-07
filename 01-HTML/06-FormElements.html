@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Form Elements</h1>
+
+    <!-- method - get or post -->
+    <!-- enctype - encrypt type -->
+    <form action="register" method="get" enctype="multipart/form-data">
+        <table>
+            <tr>
+                <td>Enter Name</td>
+                <td>
+                    <input type="text" name="username" value="Ram">
+                </td>
+            </tr>
+            <tr>
+                <td>Enter Password</td>
+                <td>
+                    <input type="password" name="pwd" value="12345">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Choose Country</td>
+                <td>
+                    <select name="country">
+                        <option>Choose country</option>
+                        <!-- <option value="ind">India</option>
+                        <option value="ch">China</option>
+                        <option value="pak">Pakistan</option>
+                        <option value="us">USA</option>
+                        <option value="it">Italy</option> -->
+                        <optgroup label="Asia">
+                            <option value="">India</option>
+                            <option value="">China</option>
+                            <option value="">Srilanka</option>
+                            <option value="">Indonesia</option>
+                            <option value="">Malaysia</option>
+                        </optgroup>
+
+                        <optgroup label="Europe">
+                            <option value="">England</option>
+                            <option value="">France</option>
+                            <option value="">Italy</option>
+                            <option value="">Germany</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Choose Gender</td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="m"> 
+                    <label for="male">Male</label>
+
+                    <input type="radio" id="female" name="gender" value="f">
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Select Hobby</td>
+                <td>
+                    <input type="checkbox"> Cricket
+                    <input type="checkbox"> Chess
+                    <input type="checkbox"> Hockey
+                    <input type="checkbox"> Tennis
+                </td>
+            </tr>
+
+            <tr>
+                <td>Upload Image</td>
+                <td>
+                    <input type="file">
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>
+                    <!-- <input type="submit" value="Register"> -->
+                    <button type="submit">Register</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
