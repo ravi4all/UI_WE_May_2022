@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #parent_1 {
+            background-color: aqua;
+        }
+        #parent_2 {
+            background-color: lightcoral;
+        }
+        /* #parent_1 .grand-child h2 {
+            color: red;
+        } */
+        /* #parent_1 .child > h2 {
+            color: red;
+        } */
+        
+        /* Combinators */
+        #parent_1 > h2 {
+            color: red;
+        }
+        #parent_2 + p {
+            color: red;
+        }
+        #parent_2 ~ p {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Basic Selectors</h1>
+
+    <div id="parent_1">
+        <h2>This is inside parent</h2>
+        <div class="child">
+            <h2>This is inside child</h2>
+            <div class="grand-child">
+                <h2>This is inside grand child...</h2>
+            </div>
+        </div>
+
+        <div class="child">
+            <h2>This is inside child</h2>
+            <div class="grand-child">
+                <h2>This is inside grand child...</h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum fugiat minus tempore vitae alias excepturi quaerat iste laboriosam, eos quod qui, architecto dignissimos soluta hic saepe inventore totam recusandae molestiae?
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="parent_2">
+        <h2>This is inside parent</h2>
+        <div class="child">
+            <h2>This is inside child</h2>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum soluta, tempore velit vel excepturi suscipit neque fugiat odio accusantium distinctio quia architecto necessitatibus perspiciatis. Dolores corporis voluptates vel illum fugit.
+            </p>
+            <div class="grand-child">
+                <h2>This is inside grand child...</h2>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos pariatur dolor dicta ea corporis esse quae ut, culpa, totam necessitatibus incidunt odit. Minima aliquid, aliquam itaque quam animi quis ullam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates ab distinctio modi perferendis amet eligendi consectetur autem? Consequatur excepturi veritatis nostrum magni placeat maiores, eius alias aperiam libero! Pariatur, aut?
+    </p>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed magni cum assumenda quisquam accusantium dignissimos sequi laborum voluptas architecto ducimus accusamus, laudantium unde doloribus facilis repellendus ex? Iure, beatae ratione?
+    </p>
+    
+</body>
+</html>
