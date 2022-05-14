@@ -1,0 +1,38 @@
+body {
+    background-image: url("https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/2020-Chevrolet-Corvette-Stingray/0x0.jpg?fit=crop&format=jpg&crop=4560,2565,x790,y784,safe");
+    margin: 0px;    /*By default body takes 8px of margin*/
+    /* background-size: contain; */
+    /* background-size: cover; */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    background-attachment: fixed;
+}
+
+/* Parallax Effect Using CSS */
+div {
+    height: 750px;
+    background-size: 100% 100%;
+    /* margin-bottom: 500px; */
+    background-attachment: fixed;
+}
+
+#div_1 {
+    background-image: url("https://cdn.motor1.com/images/mgl/mrz1e/s3/coolest-cars-feature.jpg");
+}
+#div_2 {
+    background-image: url("http://prod-upp-image-read.ft.com/a4e8f394-313b-11ea-a329-0bcf87a328f2");
+}
+#div_3 {
+    background-image: url("https://resizing.flixster.com/kxejUSFjS4mtH8RTMhPaRSG_kp0=/740x380/v2/https://statcdn.fandango.com/MPX/image/NBCU_Fandango/459/359/thumb_B33AE747-184C-4B10-8EEF-4CA4D29F14BA.jpg");
+}
+#div_4 {
+    background-image: url("https://www.topgear.com/sites/default/files/news-listicle/image/2020/09/taycan_blue_turbo_025.jpg?w=1280&h=720");
+}
+#div_5 {
+    background-image: url("https://media.wired.com/photos/621ebb0c00c61db612b05fdb/3:2/w_1280%2Cc_limit/Gear-Polestar-O%25E2%2582%2582-batch-A-(9).jpg");
+}
+#div_6 {
+    background-image: url("https://elitetraveler.com/wp-content/uploads/2019/07/Screenshot-2020-05-12-at-15.10.34.png");
+}
