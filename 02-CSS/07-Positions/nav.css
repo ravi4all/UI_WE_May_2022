@@ -1,0 +1,57 @@
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+h1 {
+    margin: 0px;
+}
+
+.logo {
+    float: left;
+    width: 10%;
+}
+
+#nav {
+    float: right;
+    width: 80%;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#nav > ul > li {
+    display: inline-block;
+    vertical-align: top;
+    width: 15%;
+    background-color: lightgreen;
+    text-align: center;
+    position: relative;
+}
+
+#nav > ul > li a {
+    display: block;
+    padding: 10px 0px;
+    text-decoration: none;
+    font-size: 20px;
+    color: red;
+}
+
+#nav > ul > li:hover > a {
+    color: #fff;
+    background-color: red;
+}
+
+#nav .dropdown {
+    position: absolute;
+    background-color: lightgray;
+    width: 100%;
+    display: none;
+}
+#nav ul li:hover .dropdown {
+    display: block;
+}

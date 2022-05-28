@@ -28,6 +28,7 @@ a {
     /* bottom: 0px; */
     top: 0px;
     width: 100%;
+    z-index: 1;
 }
 
 img {
@@ -74,6 +75,20 @@ img {
 #main p {
     margin-bottom: 10px;
 }
+
+#main .images{
+    position: relative;
+}
+
+#main .play-icon {
+    position: absolute;
+    width: 10%;
+    top: 50%;
+    left: 50%;
+    margin-left: -5%;
+    margin-top: -5%;
+}
+
 
 #sidebar_2 {
     float: right;
