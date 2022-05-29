@@ -1,0 +1,152 @@
+/* Global Settings */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Source Sans Pro',sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Helper Classes */
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+
+/* Generic CSS */
+#header {
+    padding: 25px 0px;
+    border-bottom: 1px solid #a0a0a0;
+}
+#header .logo {
+    width: 18%;
+}
+#header .logo h1 {
+    font-size: 24px;
+    padding-top: 5px;
+}
+#header .logo a {
+    color: rgb(0, 191, 191);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+#header .logo a span {
+    background-color: #00BFBF;
+    color: #fff;
+    padding: 10px 5px;
+}
+
+#header .search {
+    width: 33%;
+    position: relative;
+}
+#header .search input[type="text"] {
+    width: 100%;
+    height: 35px;
+    background-color: #F7F7F7;
+    border: 1px solid #a0a0a0;
+    padding-left: 35px;
+}
+#header .search button {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 39px;
+    width: 40px;
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+}
+#header .helper-links {
+    width: 46%;
+}
+#header .helper-links ul li {
+    display: inline-block;
+}
+#header .helper-links ul li a {
+    display: block;
+    padding: 10px 15px;
+    position: relative;
+    color: #1a1a1a;
+    font-size: 14px;
+}
+#header .helper-links ul li:not(:last-child) a:after {
+    content: "";
+    border-right: 1px solid #000;
+    top: 12px;
+    height: 15px;
+    position: absolute;
+    right: 0px;
+}
+#header .helper-links ul li a:hover {
+    color: #0b9797;
+}
+
+#main-navigation {
+    border-bottom: 1px solid #a0a0a0;
+}
+#main-navigation ul li {
+    display: inline-block;
+}
+#main-navigation ul li a {
+    display: block;
+    padding: 15px 18px;
+    color: #1d1d1d;
+    font-size: 14px;
+}
+
+#main-navigation .customer-links a {
+    display: inline-block;
+    padding: 15px;
+}
+
+#main {
+
+}
+
+#sidebar {
+
+}
+
+#footer {
+
+}
+
+/* Specific CSS */
+
+/* Index CSS */
+
+
+
+/* About CSS */
+
