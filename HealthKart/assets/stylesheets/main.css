@@ -115,10 +115,13 @@ a {
 #main-navigation {
     border-bottom: 1px solid #a0a0a0;
 }
-#main-navigation ul li {
+#main-navigation .container {
+    position: relative;
+}
+#main-navigation .nav > ul > li {
     display: inline-block;
 }
-#main-navigation ul li a {
+#main-navigation .nav > ul > li > a {
     display: block;
     padding: 15px 18px;
     color: #1d1d1d;
@@ -130,12 +133,44 @@ a {
     padding: 15px;
 }
 
-#main {
-
+#main-navigation .nav .dropdown {
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    left: 0px;
+    display: none;
+}
+#main-navigation .nav ul li .dropdown > ul > li > a {
+    font-size: 14px;
+    padding: 15px;
+    display: block;
+    background-color: #f2f8f8;
+    width: 20%;
+}
+#main-navigation .nav ul li .dropdown > ul > li > a:hover {
+    background-color: #fff;
+}
+#main-navigation .nav .dropdown .sub-dropdown {
+    position: absolute;
+    left: 23%;
+    top: 3%;
+    width: 76%;
+    background-color: #fff;
+}
+#main-navigation .nav .dropdown .sub-dropdown .col {
+    display: inline-block;
+    width: 18%;
+}
+#main-navigation .nav .dropdown .sub-dropdown .col ul li {
+    margin-bottom: 10px;
+}
+#main-navigation .nav .dropdown .sub-dropdown .col a {
+    font-size: 12px;
+    color: #383838;
 }
 
-#sidebar {
-
+#main-navigation .nav ul li:hover .dropdown {
+    display: block;
 }
 
 #footer {
@@ -145,7 +180,14 @@ a {
 /* Specific CSS */
 
 /* Index CSS */
-
+.products .product {
+    display: inline-block;
+    width: 23%;
+    border: 1px solid #a0a0a0;
+}
+.products .product .image {
+    text-align: center;
+}
 
 
 /* About CSS */
