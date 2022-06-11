@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input {
+            color: red;
+        }
+        /* Will work in chrome and safari only */
+        ::-webkit-input-placeholder {
+            color: red;
+        }
+
+        /* Will work in Mozilla only */
+        ::-moz-input-placeholder {
+            color: red;
+        }
+
+        * {
+            box-sizing: border-box;
+            /* Mozilla */
+            -moz-box-sizing: border-box;
+            /* Chrome and Safari */
+            -webkit-box-sizing: border-box;
+            /* Internet Explorer */
+            -ms-box-sizing: border-box;
+            /* Opera */
+            -o-box-sizing: border-box;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>CSS_3 Prefix</h1>
+
+    <form action="#">
+        <label for="">Enter Name</label>
+        <input type="text" placeholder="Enter your name">
+    </form>
+    
+</body>
+</html>
